@@ -1,0 +1,38 @@
+one2one.jks
+
+password: 87654321
+
+alias: one2one
+password: 87654321
+
+Apps with Common Keys
+1. FL One2One
+2. FOR One2One
+3. LF One2One
+4. FSF One2One
+5. NEPTUNE One2One
+6. GLC One2One
+7. ACG One2One
+8. NOATUM One2One
+9. NET One2One
+10. SLNandLLN One2One
+11. LLNandELN One2One
+12. ASA One2One
+13. LFS One2One
+14. FW One2One
+15. IGN One2One
+16. PLNANDW3PLN One2One
+17. MLNANDCLN One2One
+18. BLING One2One
+19. LATAM One2One
+20. MCLN One2One
+21. MGLN One2One
+22. GFG One2One
+23. GKF One2One
+24. AFBN One2One
+25. TFSEMERGE One2One
+26. MYNETWORK One2One
+27. NXT One2One
+28. GNN One2One
+29. B2B VLA One2One 
+30. GCA One2One 

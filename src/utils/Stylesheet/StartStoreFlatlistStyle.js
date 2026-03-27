@@ -1,0 +1,275 @@
+import { StyleSheet } from "react-native";
+import Colors from "../../Assets/Style/Color";
+
+const StartStoreFlatlist = StyleSheet.create({
+    container: {
+      flex: 1,
+      marginHorizontal: 10,
+    },
+    card: {
+      padding: 10,
+      marginHorizontal: 15,
+      marginVertical: 10,
+      backgroundColor: Colors.grey_bg_Color, 
+      borderRadius: 10,
+      shadowColor: '#000',
+      shadowOpacity: 0.2,
+      shadowOffset: { width: 0, height: 4 },
+      elevation: 6, 
+      borderWidth: 1, 
+      borderColor: '#333', 
+    },
+    card1: {
+      padding: 10,
+      marginHorizontal: 15,
+      marginVertical: 10,
+      backgroundColor: Colors.grey_bg_Color, 
+      borderRadius: 10,
+      shadowColor: '#000',
+      shadowOpacity: 0.2,
+      shadowOffset: { width: 0, height: 4 },
+      elevation: 6, 
+      borderWidth: 1, 
+      borderColor: '#333', 
+    },
+    imgContainer: {
+      flex: 1,
+      borderWidth: 0.5,
+      borderColor: '#ccc',
+      justifyContent: 'center',
+      borderRadius: 10,
+      backgroundColor: Colors.black_bg_Theme, 
+    },
+    image: {
+      width: '100%',
+      height: 100,
+    },
+    title: {
+      fontSize: 18,
+      fontWeight: 'bold',
+      marginBottom: 10,
+      color : Colors.white_text_color
+    },
+    checkboxContainer: {
+      flexDirection: 'row',
+      justifyContent: 'space-between',
+      marginBottom: 10,
+    },
+    checkbox: {
+      borderWidth: 0.6,
+      borderColor: '#ccc',
+      padding: 10,
+      borderRadius: 4,
+      alignItems: 'center',
+      marginHorizontal: 5,
+      backgroundColor: Colors.black_bg_Theme,
+    },
+    valueLabel: {
+      marginVertical: 5,
+    },
+    row: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      marginVertical: 5,
+    },
+    label: {
+      fontSize: 14,
+      fontWeight: 'bold',
+      marginVertical: 2,
+      marginHorizontal: 5,
+      color : Colors.white_text_color
+    },
+    value: {
+      fontSize: 14,
+      marginVertical: 2,
+      marginHorizontal: 5,
+      color : Colors.white_text_color,
+    },
+     notvalue: {
+      fontSize: 14,
+      marginVertical: 2,
+      marginHorizontal: 5,
+      color : Colors.gray_text_color,
+      textAlign: 'center',
+    },
+    input: {
+      flex: 1,
+      borderWidth: 0.6,
+      borderColor: '#ccc',
+      borderRadius: 4,
+      padding: 10,
+      marginHorizontal: 5,
+      backgroundColor: Colors.black_bg_Theme,
+    },
+    inputForNotes: {
+      textAlign: 'center',
+      justifyContent: 'center',
+      borderWidth: 0.6,
+      borderColor: '#ccc',
+      borderRadius: 4,
+      padding: 10,
+      marginHorizontal: 5,
+      height: 80,
+      backgroundColor: Colors.black_bg_Theme,
+    },
+    viewButton: {
+      backgroundColor: Colors.green_color,
+      borderRadius: 4,
+      paddingVertical: 5,
+      paddingHorizontal: 10,
+      alignItems: 'center',
+      justifyContent: 'center',
+    },
+    viewButton1: {
+      backgroundColor: Colors.blue_theme_Color,
+      borderRadius: 4,
+      paddingVertical: 5,
+      paddingHorizontal: 10,
+      alignItems: 'center',
+      justifyContent: 'center',
+    },
+    viewButton2: {
+      backgroundColor: Colors.pink_theme_color,
+      borderRadius: 4,
+      paddingVertical: 5,
+      paddingHorizontal: 10,
+      alignItems: 'center',
+      justifyContent: 'center',
+    },
+  
+    buttonContainer: {
+      flexDirection: 'row',
+      justifyContent: 'space-between',
+      marginTop: 10,
+    },
+    button: {
+      flex: 1,
+      backgroundColor: Colors.white_text_color,
+      padding: 10,
+      alignItems: 'center',
+      borderRadius: 4,
+      marginHorizontal: 5,
+    },
+    DoneButton:{
+      backgroundColor: Colors.blue_theme_Color,
+      borderRadius: 4,
+      paddingVertical: 5,
+      paddingHorizontal: 10,
+      alignItems: 'center',
+      justifyContent: 'center',
+      flex : 1
+    },
+    DoneButtonText:{
+      color: Colors.white_Icon_Color,
+      fontSize: 16,
+      fontWeight: 'bold',
+      textAlign: 'center',
+    },
+    cameraButton: {
+      backgroundColor: Colors.blue_theme_Color,
+      alignItems: 'center',
+      justifyContent: 'center',
+      borderRadius: 50,
+      width: 40,
+      height: 40,
+    },
+    imageRowContainer: {
+      flexDirection: 'row',
+      flexWrap: 'wrap', 
+      marginTop: 10,
+    },
+    imageContainer: {
+      marginRight: 10, 
+      position: 'relative',
+    },
+    imageBottom: {
+      width: 50, 
+      height: 50,
+      borderRadius: 8, 
+    },
+    iconHoverOnImage: {
+      position: 'absolute',
+      top: -3,
+      right: -5,
+      backgroundColor: 'rgba(0,0,0,0.5)',
+      borderRadius: 50,
+      padding: 5,
+    },
+    finishedTitle: {
+      backgroundColor: '#4CAF50', 
+      color: '#fff', 
+      padding: 5,
+      borderRadius: 4,
+    },
+    modalOverlay: {
+      flex: 1,
+      backgroundColor: 'rgba(0, 0, 0, 0.5)',
+      justifyContent: 'center',
+      alignItems: 'center',
+    },
+    modalContent: {
+      width: '80%',
+      backgroundColor: '#fff',
+      borderRadius: 10,
+      padding: 20,
+      alignItems: 'center',
+    },
+    modalText: {
+      fontSize: 16,
+      marginBottom: 20,
+      textAlign: 'center',
+    },
+    modalActions: {
+      flexDirection: 'row',
+      justifyContent: 'space-between',
+      width: '100%',
+    },
+    modalButton: {
+      flex: 1,
+      margin: 5,
+      padding: 10,
+      borderRadius: 5,
+      alignItems: 'center',
+    },
+    cancelButton: {
+      backgroundColor: Colors.pink_theme_color,
+    },
+    confirmButton: {
+      backgroundColor: Colors.blue_theme_Color,
+    },
+    buttonText: {
+      color: '#fff',
+      fontSize: 16,
+      fontWeight : 'bold',
+      textAlign : 'center'
+    },
+    buttonText1: {
+      color: '#fff',
+      fontSize: 16,
+      fontWeight : 'bold',
+      textAlign : 'center'
+    },
+    buttonText2: {
+      color: '#fff',
+      fontSize: 16,
+      fontWeight : 'bold',
+      textAlign : 'center'
+    },
+    labelUp: {
+      marginRight: 10,
+      fontWeight: 'bold',
+      textAlign: 'center',
+      fontFamily: 'sans-serif',
+      color: Colors.white_text_color,
+    },
+    AddressInput : {
+      borderWidth: 0.6,
+      borderColor: '#ccc',
+      borderRadius: 4,
+      padding: 10,
+      marginHorizontal: 5,
+      height: 80,
+      backgroundColor: Colors.black_bg_Theme,
+    }
+  });
+  export default StartStoreFlatlist;
